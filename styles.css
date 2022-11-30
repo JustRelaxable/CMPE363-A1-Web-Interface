@@ -16,6 +16,8 @@ body{
 .grid-two-columns{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: center;
 }
 
 .team-member{
@@ -26,6 +28,7 @@ body{
 
 .team-member-img{
     max-width: 400px;
+    overflow: hidden;
 }
 
 .team-member-img img{
